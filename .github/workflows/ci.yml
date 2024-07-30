@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - fix-revoked
+      - graalpy
   pull_request:
   workflow_dispatch:
   schedule:
