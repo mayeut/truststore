@@ -3,7 +3,8 @@ pyopenssl
 pytest
 pytest-asyncio
 pytest-httpserver
-urllib3
+urllib3 <2 ; implementation_name == 'graalpy'
+urllib3 >=2 ; implementation_name != 'graalpy'
 requests
 flaky
 httpx
